@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_searching"
+        android:orderInCategory="10"
+        android:title="@string/search"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+    <item
+        android:id="@+id/action_add_event"
+        android:orderInCategory="100"
+        android:title="@string/action_add_event"
+        android:icon="@drawable/ic_action_add_white"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1000"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_setting_white"
+        app:showAsAction="ifRoom" />
+
+</menu>

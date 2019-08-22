@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/about_page_layout_3">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/username_text1"
+                android:text="@string/username_text1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/username_field"
+                android:layout_toRightOf="@id/username_text1"
+                android:layout_toEndOf="@id/username_text1"
+                android:text="@string/username_text1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/quick_statistics"
+                android:text="@string/quick_statistics"
+                android:layout_below="@id/username_field"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="36dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/count_all"
+                android:id="@+id/count_all_text"
+                android:layout_below="@id/quick_statistics"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/count_all"
+                android:id="@+id/count_all_field"
+                android:layout_toRightOf="@id/count_all_text"
+                android:layout_toEndOf="@id/count_all_text"
+                android:layout_below="@id/quick_statistics"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/count_home_text"
+                android:text="@string/count_home"
+                android:layout_below="@id/count_all_text"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/count_home_field"
+                android:text="@string/count_home"
+                android:layout_below="@id/count_all_text"
+                android:layout_toRightOf="@id/count_home_text"
+                android:layout_toEndOf="@id/count_home_text"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/count_work_text"
+                android:text="@string/count_work"
+                android:layout_below="@id/count_home_text"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/count_work_field"
+                android:text="@string/count_work"
+                android:layout_below="@id/count_home_text"
+                android:layout_toRightOf="@id/count_work_text"
+                android:layout_toEndOf="@id/count_work_text"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/count_others_text"
+                android:text="@string/count_others"
+                android:layout_below="@id/count_work_text"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/count_others_field"
+                android:text="@string/count_others"
+                android:layout_below="@id/count_work_text"
+                android:layout_toRightOf="@id/count_others_text"
+                android:layout_toEndOf="@id/count_others_text"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="24dp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/count_others_text"
+                android:layout_marginTop="36dp"
+                android:layout_marginBottom="40dp"
+                android:id="@+id/about_page_3_linearlayout" >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/change_password_button"
+                    android:text="@string/change_password_button"
+                    android:layout_below="@id/count_others_text"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="3dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/logout_button"
+                    android:text="@string/logout_button"
+                    android:layout_below="@id/count_others_text"
+                    android:layout_toRightOf="@id/change_password_button"
+                    android:layout_toEndOf="@id/change_password_button"
+                    android:layout_weight="1"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="3dp" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="70dp"
+                android:layout_below="@id/about_page_3_linearlayout" />
+
+
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

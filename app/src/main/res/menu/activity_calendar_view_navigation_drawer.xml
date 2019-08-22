@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+
+
+    <item android:title="@string/display_mode">
+        <menu>
+
+            <item
+                android:id="@+id/nav_display_listmode"
+                android:title="@string/event_list_view"
+                app:actionLayout="@layout/menu_counter"
+                android:icon="@drawable/ic_action_listmode"/>
+
+        </menu>
+    </item>
+
+    <item android:title="@string/function_name">
+        <menu>
+            <item
+                android:id="@+id/nav_function_word"
+                android:icon="@drawable/ic_action_assessment"
+                android:title="@string/function_words"
+                android:actionLayout="@layout/menu_counter"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/action_settings">
+        <menu>
+            <item
+                android:id="@+id/nav_add_event_c"
+                android:icon="@drawable/ic_action_edit"
+                android:title="@string/add_new_event1"/>
+
+            <item
+                android:id="@+id/nav_settings_c"
+                android:icon="@drawable/ic_action_setting"
+                android:title="@string/action_settings" />
+            <item
+                android:id="@+id/nav_about_c"
+                android:icon="@drawable/ic_action_info"
+                android:title="@string/title_About" />
+            <item
+                android:id="@+id/nav_log_out_c"
+                android:icon="@drawable/ic_action_account"
+                android:title="@string/logout_button" />
+        </menu>
+    </item>
+
+</menu>

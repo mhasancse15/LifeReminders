@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LuckyDays</string>
+
+    <!-- Strings related to login -->
+    <string name="username">ID</string>
+    <string name="password">パスワード</string>
+    <string name="prompt_email">メールアドレス</string>
+    <string name="prompt_password">パスワード</string>
+    <string name="action_sign_in">ログイン</string>
+    <string name="action_sign_up">新規取得</string>
+    <string name="action_sign_in_short">ログイン</string>
+    <string name="action_add_event">新規イベント</string>
+    <string name="action_delete">削除</string>
+    <string name="action_edit">編集</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="password_incorrect">パスワードが誤りがあります</string>
+    <string name="error_field_required">必須</string>
+    <string name="email_invalid">メールアドレスが誤りがあります</string>
+    <string name="password_invalid">パスワードが誤りがあります</string>
+    <string name="email_and_password_invalid">メールアドレスとパスワードが誤りがあります</string>
+    <string name="username_already_exist">IDは既に登録されています</string>
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="only_show_days">仅显示未来14天内截止的事件</string>
+    <string name="only_show_positive">仅显示还未截止的事件</string>
+    <string name="turn_on_notification">通知を許可</string>
+    <string name="choose_notification_time">通知の時間を選ぶ</string>
+    <string name="off">オフ</string>
+    <string name="on">オン</string>
+    <string name="apply_changes">完了</string>
+    <string name="discard_changes">キャンセル</string>
+
+    <string name="colour_text">色</string>
+
+    <string name="language_choosing">言語を選んでください (language 语言 語言 langue)</string>
+
+    <string-array name="languages_array">
+        <item>英語 (EN-GB)</item>
+        <item>中国語 (CH-ZN)</item>
+        <item>中国語（台湾） (CH-TW)</item>
+        <item>日本語 (JA-JP)</item>
+        <item>フランス語 (FR-FA)</item>
+    </string-array>
+
+    <string-array name="colour_array">
+        <item>青</item>
+        <item>緑</item>
+        <item>ピンク</item>
+        <item>紫</item>
+        <item>オレンジ色</item>
+        <item>浅緑</item>
+        <item>レモン色</item>
+        <item>アンバー色</item>
+        <item>黄色</item>
+        <item>グレイ</item>
+        <item>天色</item>
+        <item>青緑色</item>
+        <item>赤</item>
+        <item>緑1</item>
+        <item>緑2</item>
+        <item>青緑色1</item>
+        <item>紫1</item>
+        <item>ピンク1</item>
+        <item>グレイ1</item>
+        <item>紫2</item>
+        <item>ピンク2</item>
+        <item>緑3</item>
+        <item>オレンジ色1</item>
+        <item>紫3</item>
+        <item>紫4</item>
+        <item>青1</item>
+        <item>青緑色2</item>
+        <item>緑4</item>
+        <item>ピンク3</item>
+        <item>オレンジ色2</item>
+    </string-array>
+
+    <string name="title_activity_navigation">メモ　リストモード</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">設定</string>
+
+    <string name="manage_event_title_bar">イベント管理</string>
+    <string name="title_activity_settings">設定</string>
+
+
+
+
+
+
+
+
+    <string name="title_activity_scrolling">イベントの詳細</string>
+    <string name="large_text">Text Place Holder</string>
+    <string name="title_activity_event_creation_scrolling">新規イベントを追加</string>
+
+    <!-- Strings for creating events -->
+    <string name="event_name">イベント名</string>
+    <string name="event_classification">カテゴリ</string>
+    <string name="event_starting_time">開始</string>
+    <string name="event_starting_date">始まる日付き</string>
+    <string name="event_finishing_time">終了</string>
+    <string name="event_finishing_date">終日</string>
+    <string name="event_creating_time">追加時間</string>
+    <string name="days_remain">残りの日数</string>
+    <string name="event_content">メモ</string>
+    <string name="days">日数</string>
+    <string name="classs">カテゴリ</string>
+
+    <string name="event_name_hint">イベント名を入力</string>
+    <string name="event_content_hint">メモを入力</string>
+
+    <string name="finish">保存</string>
+    <string name="cancel">キャンセル</string>
+    <string name="update">アップデート</string>
+
+    <string-array name="event_classification_spinner_options">
+        <item>生活</item>
+        <item>仕事</item>
+        <item>その他</item>
+    </string-array>
+
+    <string-array name="sorting_order_spinner_options">
+        <item>作成日時の昇順</item>
+        <item>作成日時の降順で整列します</item>
+        <item>残りの日は整理されています</item>
+    </string-array>
+
+    <string name="sorting_order">イベントの順番</string>
+
+    <string name="title_activity_about_page_main">このアプリについて</string>
+    <string name="title_About">このアプリについて</string>
+    <string name="title_Develpoer">開発者</string>
+    <string name="title_Statistic">統計</string>
+    <string name="title_activity_event_edit_scrolling">イベント編集</string>
+    <string name="edit_your_event">編集</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_setting_page">設定</string>
+
+    <string name="logout_button">ログアウト</string>
+    <string name="about_this_app">About this App</string>
+    <string name="about_developer">About the developer</string>
+    <string name="change_password_button">パスワード変更</string>
+    <string name="enter_password">新しいパスワード</string>
+    <string name="re_enter_password">新しいパスワード再（入力）</string>
+
+    <string name="quick_statistics">统计信息</string>
+    <string name="count_all">イベント数</string>
+    <string name="count_home">“生活”数</string>
+    <string name="count_work">“仕事”数</string>
+    <string name="count_others">“その他”数</string>
+
+    <string name="search">検索</string>
+
+    <string name="start_up_button_text">Developed by Jiashu Wu</string>
+    <string name="start_up_button_date">© Copyright Jiashu Wu 2018 All Rights Reserved</string>
+
+    <string name="username_text1">ID</string>
+    <string name="title_activity_calendar_event">CalendarEventActivity</string>
+    <string name="title_activity_calendar_view_navigation">カレンダーモード</string>
+    <string name="title_activity_display_licences">ライブラリ</string>
+
+    <string name="view_licence">ライブラリを見る</string>
+
+    <string name="change_password">パスワード変更</string>
+    <string name="incorrect_password_setting">間違いパスワード</string>
+    <string name="ok">完了</string>
+    <string name="okay">完了</string>
+    <string name="password_reset_successfully">パスワード変更完了</string>
+    <string name="confirm_logout1">はい</string>
+    <string name="confirm_logout2">ログアウトしますか？</string>
+    <string name="go_back">いいえ</string>
+    <string name="log_out">ログアウト</string>
+
+    <string name="make_changes">変更</string>
+    <string name="change_event">変更しますか？</string>
+    <string name="go_back_without_saving">キャンセル</string>
+    <string name="delete">削除</string>
+    <string name="edit">編集</string>
+    <string name="invalid_login">ログインできませんでした</string>
+
+    <string name="invalid_event_information">間違いイベント</string>
+    <string name="home">生活</string>
+    <string name="work">仕事</string>
+    <string name="others">その他</string>
+    <string name="event_name_content_invalid">イベント無効</string>
+    <string name="event_name_invalid">イベント名無効</string>
+    <string name="event_content_invalid">メモ無効</string>
+    <string name="confirm_saving">保存する</string>
+    <string name="go_back_to_change">キャンセル</string>
+    <string name="confirm_exit">退出する</string>
+    <string name="exit_without_saving2">保存しないで退出しますか？</string>
+    <string name="exit_without_saving1">はい</string>
+    <string name="confirm">確認する</string>
+    <string name="delete_event">削除しますか？</string>
+
+    <string name="add_new_event">新規イベントを追加</string>
+    <string name="add">追加</string>
+
+    <string name="lucky_day_notification_title">ラッキーデイース通知</string>
+    <string name="you_have">你有</string>
+    <string name="due_on">个事件在今天截止</string>
+    <string name="turn_off_content">通知オフになりました</string>
+    <string name="turn_on_content">通知オンになりました</string>
+    <string name="turn_on_n">通知オン</string>
+    <string name="turn_off_n">通知オフ</string>
+    <string name="lucky_day_n">ラッキーデイース通知</string>
+
+    <string name="all">全部</string>
+    <string name="events">イベント</string>
+    <string name="display_mode">モード</string>
+    <string name="calendar_view">カレンダモード</string>
+    <string name="add_new_event1">新規イベントを追加</string>
+    <string name="event_list_view">列表模式</string>
+    <string name="place_holder">Place Holder</string>
+    <string name="choose_colour">色を変更</string>
+
+    <string name="date_decisioin">期限は開始日より早くするべきではありません</string>
+
+    <string name="username_doesnt_exist">ユーザー名が存在しません。まずはサインアップしてください</string>
+
+    <string name="version_info">バージョン情報</string>
+
+    <string name="title_activity_version_info">バージョン情報</string>
+
+    <string name="send_email">メールを送る</string>
+    <string name="title_activity_send_email">メールを送る</string>
+
+    <string name="send_to">受信者</string>
+    <string name="email_subject">メールの件名</string>
+    <string name="email_content">メッセージ本文</string>
+    <string name="send_button">送信</string>
+
+    <string name="border_line">=====================================</string>
+    <string name="email_signature">Send from LuckyDays Android version</string>
+
+    <string name="cancel_sending">Exit without sending this email?</string>
+
+    <string name="exit_without_sending">Exit without sending</string>
+
+    <string name="email_is_empty">Email address cannot be empty</string>
+    <string name="email_address_invalid">Email address invalid</string>
+    <string name="subject_is_empty">Subject cannot be empty</string>
+    <string name="confirm_sending_email">Confirm sending this email?</string>
+    <string name="invalid_information">無効な情報</string>
+    <string name="network_error">異常なネットワーク</string>
+    <string name="network_not_available">Network not available</string>
+    <string name="title_activity_words">Send New Words</string>
+
+
+    <!-- -->
+    <string name="function_name">機能</string>
+    <string name="function_words">単語</string>
+    <string name="word_choose_time">時間を選択する</string>
+    <string name="new_word">新しい単語</string>
+    <string name="choose_time">時間を選択する</string>
+
+    <string name="word_is_empty">Word field is empty</string>
+
+</resources>

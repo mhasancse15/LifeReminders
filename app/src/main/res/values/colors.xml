@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGreen">#32CD99</color>
+    <color name="orangeRed">#FF2400</color>
+    <color name="orange">#FF7F00</color>
+    <color name="pink">#FF00FF</color>
+    <color name="forestGreen">#32CD32</color>
+    <color name="boldBlack">#444</color>
+    <color name="normalBlack">#898989</color>
+    <color name="lightBlue">#2388E5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="purple">#A020F0</color>
+
+    <color name="buttonPink">#ff4182</color>
+    <color name="buttonRed">#ff5353</color>
+
+    <!-- -->
+    <color name="colorPrimaryDarkGreen">#388E3C</color>
+    <color name="colorPrimaryGreen">#4CAF50</color>
+    <color name="colorAccentGreen">#66BB6A</color>
+
+    <!-- -->
+    <color name="colorPrimaryDarkLightGreen">#689F38</color>
+    <color name="colorPrimaryLightGreen">#8BC34A</color>
+    <color name="colorAccentLightGreen">#9CCC65</color>
+
+    <!-- -->
+    <color name="colorPrimaryDarkLime">#AFB42B</color>
+    <color name="colorPrimaryLime">#CDDC39</color>
+    <color name="colorAccentLime">#D4E157</color>
+
+    <!-- -->
+    <color name="colorPrimaryDarkPink">#C2185B</color>
+    <color name="colorPrimaryPink">#E91E63</color>
+    <color name="colorAccentPink">#EC407A</color>
+
+    <!-- -->
+    <color name="colorPrimaryDarkPurple">#7B1FA2</color>
+    <color name="colorPrimaryPurple">#9C27B0</color>
+    <color name="colorAccentPurple">#AC47BC</color>
+
+    <!-- -->
+    <color name="colorPrimaryDarkOrange">#F57C00</color>
+    <color name="colorPrimaryOrange">#FF9800</color>
+    <color name="colorAccentOrange">#FFA726</color>
+
+    <!-- -->
+    <color name="colorPrimaryDarkAmber">#FFA000</color>
+    <color name="colorPrimaryAmber">#FFC107</color>
+    <color name="colorAccentAmber">#FFCA28</color>
+
+    <!-- -->
+    <color name="colorPrimaryDarkYellow">#FBC02D</color>
+    <color name="colorPrimaryYellow">#FFEB3B</color>
+    <color name="colorAccentYellow">#FFEE58</color>
+
+    <!-- -->
+    <color name="colorPrimaryDarkRed">#D32F2F</color>
+    <color name="colorPrimaryRed">#F44336</color>
+    <color name="colorAccentRed">#EF5350</color>
+
+    <!-- -->
+    <color name="colorPrimaryDarkGrey">#616161</color>
+    <color name="colorPrimaryGrey">#9E9E9E</color>
+    <color name="colorAccentGrey">#BDBDBD</color>
+
+    <!-- -->
+    <color name="colorPrimaryDarkLightBlue">#0288D1</color>
+    <color name="colorPrimaryLightBlue">#03A9F4</color>
+    <color name="colorAccentLightBlue">#29B6F6</color>
+
+    <!-- -->
+    <color name="colorPrimaryDarkTeal">#00796B</color>
+    <color name="colorPrimaryTeal">#009688</color>
+    <color name="colorAccentTeal">#26A69A</color>
+
+
+    <color name="colorPrimaryDarkGreen1">#7ecb20</color>
+    <color name="colorPrimaryGreen1">#b2ff59</color>
+    <color name="colorAccentGreen1">#e7ff8c</color>
+
+
+    <color name="colorPrimaryDarkGreen2">#32cb00</color>
+    <color name="colorPrimaryGreen2">#76ff03</color>
+    <color name="colorAccentGreen2">#b0ff57</color>
+
+
+    <color name="colorPrimaryDarkTeal1">#2bbd7e</color>
+    <color name="colorPrimaryTeal1">#69f0ae</color>
+    <color name="colorAccentTeal1">#9fffe0</color>
+
+
+    <color name="colorPrimaryDarkPurple1">#aa00c7</color>
+    <color name="colorPrimaryPurple1">#e040fb</color>
+    <color name="colorAccentPurple1">#ff79ff</color>
+
+
+    <color name="colorPrimaryDarkPink1">#c60055</color>
+    <color name="colorPrimaryPink1">#ff4081</color>
+    <color name="colorAccentPink1">#ff79b0</color>
+
+
+    <color name="colorPrimaryDarkGrey1">#707070</color>
+    <color name="colorPrimaryGrey1">#9e9e9e</color>
+    <color name="colorAccentGrey1">#cfcfcf</color>
+
+
+    <color name="colorPrimaryDarkPurple2">#65499c</color>
+    <color name="colorPrimaryPurple2">#9575cd</color>
+    <color name="colorAccentPurple2">#c7a4ff</color>
+
+
+
+    <color name="colorPrimaryDarkPink2">#c94f7c</color>
+    <color name="colorPrimaryPink2">#ff80ab</color>
+    <color name="colorAccentPink2">#ffb2dd</color>
+
+
+    <color name="colorPrimaryDarkGreen3">#338a3e</color>
+    <color name="colorPrimaryGreen3">#66bb6a</color>
+    <color name="colorAccentGreen3">#98ee99</color>
+
+
+    <color name="colorPrimaryDarkOrange1">#c79100</color>
+    <color name="colorPrimaryOrange1">#ffc107</color>
+    <color name="colorAccentOrange1">#fff350</color>
+
+
+    <color name="colorPrimaryDarkPurple3">#280680</color>
+    <color name="colorPrimaryPurple3">#5e35b1</color>
+    <color name="colorAccentPurple3">#9162e4</color>
+
+
+    <color name="colorPrimaryDarkPurple4">#4a0072</color>
+    <color name="colorPrimaryPurple4">#7b1fa2</color>
+    <color name="colorAccentPurple4">#ae52d4</color>
+
+
+    <color name="colorPrimaryDarkBlue1">#003c8f</color>
+    <color name="colorPrimaryBlue1">#1565c0</color>
+    <color name="colorAccentBlue1">#5e92f3</color>
+
+
+    <color name="colorPrimaryDarkCyan">#005662</color>
+    <color name="colorPrimaryCyan">#00838f</color>
+    <color name="colorAccentCyan">#4fb3bf</color>
+
+
+    <color name="colorPrimaryDarkGreen4">#005005</color>
+    <color name="colorPrimaryGreen4">#2e7d32</color>
+    <color name="colorAccentGreen4">#60ad5e</color>
+
+
+    <color name="colorPrimaryDarkPink3">#ba2d65</color>
+    <color name="colorPrimaryPink3">#f06292</color>
+    <color name="colorAccentPink3">#ff6090</color>
+
+
+    <color name="colorPrimaryDarkOrange2">#c43e00</color>
+    <color name="colorPrimaryOrange2">#ff6f00</color>
+    <color name="colorAccentOrange2">#ff833a</color>
+
+
+
+
+</resources>

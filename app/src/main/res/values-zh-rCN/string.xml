@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LuckyDays</string>
+
+    <!-- Strings related to login -->
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="prompt_email">邮箱 （需包含 @ 和 . ）</string>
+    <string name="prompt_password">密码 (最少6位)</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_up">注册</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="action_add_event">添加事件</string>
+    <string name="action_delete">删除</string>
+    <string name="action_edit">编辑</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="password_incorrect">密码不正确</string>
+    <string name="error_field_required">必填项</string>
+    <string name="email_invalid">邮箱名不正确</string>
+    <string name="password_invalid">密码不正确</string>
+    <string name="email_and_password_invalid">邮箱名和密码不正确</string>
+    <string name="username_already_exist">用户名已存在</string>
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="only_show_days">仅显示未来14天内截止的事件</string>
+    <string name="only_show_positive">仅显示还未截止的事件</string>
+    <string name="turn_on_notification">开启通知</string>
+    <string name="choose_notification_time">选择通知时间</string>
+    <string name="off">关</string>
+    <string name="on">开</string>
+    <string name="apply_changes">应用更改</string>
+    <string name="discard_changes">放弃更改</string>
+
+    <string name="colour_text">颜色</string>
+
+    <string name="language_choosing">请选择语言 (language langue 語言 言語)</string>
+
+    <string-array name="languages_array">
+        <item>英语 (EN-GB)</item>
+        <item>简体中文 (CH-ZN)</item>
+        <item>繁体中文 (CH-TW)</item>
+        <item>日语 (JA-JP)</item>
+        <item>法语 (FR-FA)</item>
+    </string-array>
+
+    <string-array name="colour_array">
+        <item>蓝色</item>
+        <item>绿色</item>
+        <item>粉色</item>
+        <item>紫色</item>
+        <item>橙色</item>
+        <item>浅绿色</item>
+        <item>柠檬色</item>
+        <item>琥珀色</item>
+        <item>黄色</item>
+        <item>灰色</item>
+        <item>浅蓝色</item>
+        <item>青色</item>
+        <item>红色</item>
+        <item>绿色1</item>
+        <item>绿色2</item>
+        <item>青色1</item>
+        <item>紫色1</item>
+        <item>粉色1</item>
+        <item>灰色1</item>
+        <item>紫色2</item>
+        <item>粉色2</item>
+        <item>绿色3</item>
+        <item>橙色1</item>
+        <item>紫色3</item>
+        <item>紫色4</item>
+        <item>蓝色1</item>
+        <item>青绿色</item>
+        <item>绿色4</item>
+        <item>粉色3</item>
+        <item>橙色2</item>
+    </string-array>
+
+    <string name="title_activity_navigation">事件-列表模式</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+
+    <string name="manage_event_title_bar">Manage your events</string>
+    <string name="title_activity_settings">设置</string>
+
+
+
+
+
+
+
+
+    <string name="title_activity_scrolling">事件详情</string>
+    <string name="large_text">Text Place Holder</string>
+    <string name="title_activity_event_creation_scrolling">创建新的事件</string>
+
+    <!-- Strings for creating events -->
+    <string name="event_name">事件名称</string>
+    <string name="event_classification">事件分类</string>
+    <string name="event_starting_time">事件起始时间</string>
+    <string name="event_starting_date">事件起始日期</string>
+    <string name="event_finishing_time">事件截止时间</string>
+    <string name="event_finishing_date">事件截止日期</string>
+    <string name="event_creating_time">事件创建时间</string>
+    <string name="days_remain">剩余天数</string>
+    <string name="event_content">事件内容</string>
+    <string name="days">天数</string>
+    <string name="classs">分类</string>
+
+    <string name="event_name_hint">请输入事件名称</string>
+    <string name="event_content_hint">请输入事件内容</string>
+
+    <string name="finish">完成</string>
+    <string name="cancel">取消</string>
+    <string name="update">更新</string>
+
+    <string-array name="event_classification_spinner_options">
+        <item>生活</item>
+        <item>工作</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="sorting_order_spinner_options">
+        <item>以创建日期升序排列</item>
+        <item>以创建日期降序排列</item>
+        <item>以剩余日数排列</item>
+    </string-array>
+
+    <string name="sorting_order">事件排序</string>
+
+    <string name="title_activity_about_page_main">关于</string>
+    <string name="title_About">关于</string>
+    <string name="title_Develpoer">开发者</string>
+    <string name="title_Statistic">统计</string>
+    <string name="title_activity_event_edit_scrolling">编辑事件</string>
+    <string name="edit_your_event">编辑事件</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_setting_page">设置</string>
+
+    <string name="logout_button">退出登录</string>
+    <string name="about_this_app">About this App</string>
+    <string name="about_developer">About the developer</string>
+    <string name="change_password_button">修改密码</string>
+    <string name="enter_password">请输入新密码</string>
+    <string name="re_enter_password">请再次输入新密码</string>
+
+    <string name="quick_statistics">统计信息</string>
+    <string name="count_all">事件总数</string>
+    <string name="count_home">“生活”类事件个数</string>
+    <string name="count_work">“工作”类事件个数</string>
+    <string name="count_others">“其他”类事件个数</string>
+
+    <string name="search">搜索内容</string>
+
+    <string name="start_up_button_text">Developed by Jiashu Wu</string>
+    <string name="start_up_button_date">© Copyright Jiashu Wu 2018 All Rights Reserved</string>
+
+    <string name="username_text1">用户名</string>
+    <string name="title_activity_calendar_event">CalendarEventActivity</string>
+    <string name="title_activity_calendar_view_navigation">事件-日历模式</string>
+    <string name="title_activity_display_licences">软件许可</string>
+
+    <string name="view_licence">查看软件许可</string>
+
+    <string name="change_password">修改密码</string>
+    <string name="incorrect_password_setting">错误的密码设置</string>
+    <string name="ok">好</string>
+    <string name="okay">好</string>
+    <string name="password_reset_successfully">密码重置成功</string>
+    <string name="confirm_logout1">退出登录确认</string>
+    <string name="confirm_logout2">确认退出登录？</string>
+    <string name="go_back">返回</string>
+    <string name="log_out">退出登录</string>
+
+    <string name="make_changes">修改</string>
+    <string name="change_event">确认做出修改？</string>
+    <string name="go_back_without_saving">取消更改并返回</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="invalid_login">登录失败</string>
+
+    <string name="invalid_event_information">错误的事件信息</string>
+    <string name="home">生活</string>
+    <string name="work">工作</string>
+    <string name="others">其他</string>
+    <string name="event_name_content_invalid">事件名称和内容无效</string>
+    <string name="event_name_invalid">事件名称无效</string>
+    <string name="event_content_invalid">事件内容无效 （0-10000 字）</string>
+    <string name="confirm_saving">确认保存</string>
+    <string name="go_back_to_change">返回修改</string>
+    <string name="confirm_exit">确认退出</string>
+    <string name="exit_without_saving2">退出并不保存？</string>
+    <string name="exit_without_saving1">退出并不保存</string>
+    <string name="confirm">确认</string>
+    <string name="delete_event">确认删除事件？</string>
+
+    <string name="add_new_event">添加新的事件</string>
+    <string name="add">添加</string>
+
+    <string name="lucky_day_notification_title">LuckyDays 通知</string>
+    <string name="you_have">你有</string>
+    <string name="due_on">个事件在今天截止</string>
+    <string name="turn_off_content">你已关闭通知</string>
+    <string name="turn_on_content">你已开启通知</string>
+    <string name="turn_on_n">开启通知</string>
+    <string name="turn_off_n">关闭通知</string>
+    <string name="lucky_day_n">LuckyDays 通知</string>
+
+    <string name="all">全部</string>
+    <string name="events">事件</string>
+    <string name="display_mode">显示模式</string>
+    <string name="calendar_view">日历模式</string>
+    <string name="add_new_event1">添加新事件</string>
+    <string name="event_list_view">列表模式</string>
+    <string name="place_holder">Place Holder</string>
+    <string name="choose_colour">更改颜色</string>
+
+    <string name="date_decisioin">截止日期不应早于起始日期</string>
+
+    <string name="username_doesnt_exist">用户名不存在，请先注册</string>
+
+    <string name="version_info">版本信息</string>
+
+    <string name="title_activity_version_info">版本信息</string>
+
+    <string name="send_email">发送至邮箱</string>
+    <string name="title_activity_send_email">发送至邮箱</string>
+
+    <string name="send_to">收件人</string>
+    <string name="email_subject">主题</string>
+    <string name="email_content">正文</string>
+    <string name="send_button">发送</string>
+
+    <string name="border_line">=====================================</string>
+    <string name="email_signature">发送自 Luckydays 安卓版</string>
+
+    <string name="cancel_sending">退出并取消发送？</string>
+
+    <string name="exit_without_sending">退出并取消发送</string>
+
+    <string name="email_is_empty">收件人不能为空</string>
+    <string name="email_address_invalid">收件邮箱名不正确</string>
+    <string name="subject_is_empty">邮件主题不能为空</string>
+    <string name="confirm_sending_email">确认发送邮件？</string>
+    <string name="invalid_information">无效信息提示</string>
+    <string name="network_error">网络信号异常</string>
+    <string name="network_not_available">网络不可用</string>
+    <string name="title_activity_words">发送新单词</string>
+
+    <!-- -->
+    <string name="function_name">功能</string>
+    <string name="function_words">单词</string>
+    <string name="word_choose_time">选择时间</string>
+    <string name="new_word">新单词</string>
+    <string name="choose_time">选择时间</string>
+
+    <string name="word_is_empty">单词栏为空</string>
+
+</resources>

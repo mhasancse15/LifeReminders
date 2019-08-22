@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.davidwu.notebook.EventDetailsScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/event_detail_name_title"
+            android:text="@string/event_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/event_detail_name_field"
+            android:text="@string/event_name"
+            android:layout_below="@id/event_detail_name_title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/event_detail_classification_title"
+            android:text="@string/event_classification"
+            android:layout_below="@id/event_detail_name_field" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="18dp"
+            android:id="@+id/event_detail_classification_field"
+            android:text="@string/event_classification"
+            android:layout_below="@id/event_detail_name_field"
+            android:layout_toRightOf="@+id/event_detail_classification_title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/event_detail_starting_date_title"
+            android:text="@string/event_starting_time"
+            android:layout_below="@id/event_detail_classification_title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="18dp"
+            android:id="@+id/event_detail_starting_date_field"
+            android:text="@string/event_starting_time"
+            android:layout_below="@id/event_detail_classification_field"
+            android:layout_toRightOf="@id/event_detail_starting_date_title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/event_detail_finishing_date_title"
+            android:text="@string/event_finishing_time"
+            android:layout_below="@id/event_detail_starting_date_title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="18dp"
+            android:id="@+id/event_detail_finishing_date_field"
+            android:text="@string/event_finishing_time"
+            android:layout_below="@id/event_detail_starting_date_title"
+            android:layout_toRightOf="@id/event_detail_finishing_date_title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/event_detail_creating_date_title"
+            android:text="@string/event_creating_time"
+            android:layout_below="@id/event_detail_finishing_date_title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="18dp"
+            android:id="@+id/event_detail_creating_date_field"
+            android:text="@string/event_creating_time"
+            android:layout_below="@id/event_detail_finishing_date_title"
+            android:layout_toRightOf="@id/event_detail_creating_date_title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/event_detail_days_remain_title"
+            android:text="@string/days_remain"
+            android:layout_below="@id/event_detail_creating_date_title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="18dp"
+            android:id="@+id/event_detail_days_remain_field"
+            android:text="@string/days_remain"
+            android:layout_below="@+id/event_detail_creating_date_title"
+            android:layout_toRightOf="@id/event_detail_days_remain_title"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/event_detail_content_title"
+            android:text="@string/event_content"
+            android:layout_below="@+id/event_detail_days_remain_title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/event_detail_content_field"
+            android:text="@string/event_content"
+            android:layout_below="@id/event_detail_content_title" />
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

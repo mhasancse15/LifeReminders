@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.timetable.todolist.Schedule.lifereminders">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <!-- <uses-permission android:name="android.permission.GET_ACCOUNTS" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_PROFILE" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_CONTACTS" /> -->
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- android:icon="@drawable/ic_icon_2" -->
+    <!-- android:roundIcon="@drawable/ic_icon_2_round" -->
+    <!-- for other app store, use the configuration above!!! -->
+    <!-- android:icon="@drawable/icon_2_2" -->
+    <!-- android:roundIcon="@drawable/icon_2_2" -->
+    <!-- for baidu, the the configuration above -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_icon_2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_icon_2_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".NavigationActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".EventDetailsScrollingActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventCreationScrollingActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_event_creation_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutPageMain"
+            android:configChanges="locale"
+            android:label="@string/title_activity_about_page_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventEditScrollingActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_event_edit_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TabbedActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingPageActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_setting_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StartUpActivity"
+            android:configChanges="locale"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CalendarEventActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_calendar_event"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CalendarViewNavigationActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_calendar_view_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisplayLicencesActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_display_licences"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".AlarmService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="alarm_receiver" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".BootReceiver">
+            <intent-filter>
+                <action android:name="boot_receiver" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".RepeatingNotification">
+            <intent-filter>
+                <action android:name="com.example.davidwu.notebook.notificationalarm" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".NotificationReceiver" />
+
+        <activity android:name=".LoadingActivity" />
+        <activity
+            android:name=".VersionInfoActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_version_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SendEmailActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_send_email"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WordsActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_words"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

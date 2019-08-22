@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EventDetailsScrollingActivity" >
+
+    <item android:id="@+id/action_edit"
+        android:title="@string/action_edit"
+        android:icon="@drawable/ic_action_edit_white"
+        android:orderInCategory="80"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_email"
+        android:title=""
+        android:icon="@drawable/ic_action_email"
+        android:orderInCategory="85"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_delete"
+        android:title="@string/action_delete"
+        android:icon="@drawable/ic_action_delete_white"
+        android:orderInCategory="90"
+        app:showAsAction="ifRoom" />
+
+
+
+
+
+</menu>

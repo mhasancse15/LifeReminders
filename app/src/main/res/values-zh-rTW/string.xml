@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LuckyDays</string>
+
+    <!-- Strings related to login -->
+    <string name="username">用戶名</string>
+    <string name="password">密碼</string>
+    <string name="prompt_email">郵箱 （需包含 @ 和 . ）</string>
+    <string name="prompt_password">密碼 (最少6位)</string>
+    <string name="action_sign_in">登錄</string>
+    <string name="action_sign_up">註冊</string>
+    <string name="action_sign_in_short">登錄</string>
+    <string name="action_add_event">添加事件</string>
+    <string name="action_delete">刪除</string>
+    <string name="action_edit">編輯</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="password_incorrect">密碼不正確</string>
+    <string name="error_field_required">必填項</string>
+    <string name="email_invalid">郵箱名不正確</string>
+    <string name="password_invalid">密碼不正確</string>
+    <string name="email_and_password_invalid">郵箱名和密碼不正確</string>
+    <string name="username_already_exist">用戶名已存在</string>
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="only_show_days">僅顯示未來14天內截止的事件</string>
+    <string name="only_show_positive">僅顯示還未截止的事件</string>
+    <string name="turn_on_notification">開啟通知</string>
+    <string name="choose_notification_time">選擇通知時間</string>
+    <string name="off">關</string>
+    <string name="on">開</string>
+    <string name="apply_changes">應用更改</string>
+    <string name="discard_changes">放棄更改</string>
+
+    <string name="colour_text">顏色</string>
+
+    <string name="language_choosing">請選擇語言 (language langue 语言 言語)</string>
+
+    <string-array name="languages_array">
+        <item>英語 (EN-GB)</item>
+        <item>簡體中文 (CH-ZN)</item>
+        <item>繁體中文 (CH-TW)</item>
+        <item>日語 (JA-JP)</item>
+        <item>法語 (FR-FA)</item>
+    </string-array>
+
+    <string-array name="colour_array">
+        <item>藍色</item>
+        <item>綠色</item>
+        <item>粉色</item>
+        <item>紫色</item>
+        <item>橙色</item>
+        <item>淺綠色</item>
+        <item>檸檬色</item>
+        <item>琥珀色</item>
+        <item>黃色</item>
+        <item>灰色</item>
+        <item>淺藍色</item>
+        <item>青色</item>
+        <item>紅色</item>
+        <item>綠色1</item>
+        <item>綠色2</item>
+        <item>青色1</item>
+        <item>紫色1</item>
+        <item>粉色1</item>
+        <item>灰色1</item>
+        <item>紫色2</item>
+        <item>粉色2</item>
+        <item>綠色3</item>
+        <item>橙色1</item>
+        <item>紫色3</item>
+        <item>紫色4</item>
+        <item>藍色1</item>
+        <item>青綠色</item>
+        <item>綠色4</item>
+        <item>粉色3</item>
+        <item>橙色2</item>
+    </string-array>
+
+    <string name="title_activity_navigation">事件-列表模式</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">設置</string>
+
+    <string name="manage_event_title_bar">管理事件</string>
+    <string name="title_activity_settings">設置</string>
+
+
+
+    <string name="title_activity_scrolling">事件詳情</string>
+    <string name="large_text">Text Place Holder</string>
+    <string name="title_activity_event_creation_scrolling">創建新的事件</string>
+
+    <!-- Strings for creating events -->
+    <string name="event_name">事件名稱</string>
+    <string name="event_classification">事件分類</string>
+    <string name="event_starting_time">事件起始時間</string>
+    <string name="event_starting_date">事件起始日期</string>
+    <string name="event_finishing_time">事件截止時間</string>
+    <string name="event_finishing_date">事件截止日期</string>
+    <string name="event_creating_time">事件創建時間</string>
+    <string name="days_remain">剩餘天數</string>
+    <string name="event_content">事件內容</string>
+    <string name="days">天數</string>
+    <string name="classs">分類</string>
+
+    <string name="event_name_hint">請輸入事件名稱</string>
+    <string name="event_content_hint">請輸入事件內容</string>
+
+    <string name="finish">完成</string>
+    <string name="cancel">取消</string>
+    <string name="update">更新</string>
+
+    <string-array name="event_classification_spinner_options">
+        <item>生活</item>
+        <item>工作</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="sorting_order_spinner_options">
+        <item>以創建日期升序排列</item>
+        <item>以創建日期降序排列</item>
+        <item>以剩餘天數排列</item>
+    </string-array>
+
+    <string name="sorting_order">事件排列</string>
+
+    <string name="title_activity_about_page_main">關於</string>
+    <string name="title_About">關於</string>
+    <string name="title_Develpoer">開發者</string>
+    <string name="title_Statistic">統計</string>
+    <string name="title_activity_event_edit_scrolling">編輯事件</string>
+    <string name="edit_your_event">編輯事件</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_setting_page">設置</string>
+
+    <string name="logout_button">退出登錄</string>
+    <string name="about_this_app">About this App</string>
+    <string name="about_developer">About the developer</string>
+    <string name="change_password_button">修改密碼</string>
+    <string name="enter_password">請輸入新密碼</string>
+    <string name="re_enter_password">請再次輸入新密碼</string>
+
+    <string name="quick_statistics">統計信息</string>
+    <string name="count_all">事件總數</string>
+    <string name="count_home">“生活”類事件個數</string>
+    <string name="count_work">“工作”類事件個數</string>
+    <string name="count_others">“其他”類事件個數</string>
+
+    <string name="search">搜索內容</string>
+
+    <string name="start_up_button_text">Developed by Jiashu Wu</string>
+    <string name="start_up_button_date">© Copyright Jiashu Wu 2018 All Rights Reserved</string>
+
+    <string name="username_text1">用戶名</string>
+    <string name="title_activity_calendar_event">CalendarEventActivity</string>
+    <string name="title_activity_calendar_view_navigation">事件-日曆模式</string>
+    <string name="title_activity_display_licences">軟件許可</string>
+
+    <string name="view_licence">查看軟件許可</string>
+
+    <string name="change_password">修改密碼</string>
+    <string name="incorrect_password_setting">錯誤的密碼設置</string>
+    <string name="ok">好</string>
+    <string name="okay">好</string>
+    <string name="password_reset_successfully">密碼重置成功</string>
+    <string name="confirm_logout1">退出登錄確認</string>
+    <string name="confirm_logout2">確認退出登錄？</string>
+    <string name="go_back">返回</string>
+    <string name="log_out">退出登錄</string>
+
+    <string name="make_changes">修改</string>
+    <string name="change_event">確認作出修改？</string>
+    <string name="go_back_without_saving">取消更改并返回</string>
+    <string name="delete">刪除</string>
+    <string name="edit">編輯</string>
+    <string name="invalid_login">登錄失敗</string>
+
+    <string name="invalid_event_information">錯誤的事件信息</string>
+    <string name="home">生活</string>
+    <string name="work">工作</string>
+    <string name="others">其他</string>
+    <string name="event_name_content_invalid">事件名稱和內容無效</string>
+    <string name="event_name_invalid">事件名稱無效</string>
+    <string name="event_content_invalid">事件內容無效 （0-10000 字）</string>
+    <string name="confirm_saving">確認保存</string>
+    <string name="go_back_to_change">返回修改</string>
+    <string name="confirm_exit">確認退出</string>
+    <string name="exit_without_saving2">退出并不保存？</string>
+    <string name="exit_without_saving1">退出并不保存</string>
+    <string name="confirm">確認</string>
+    <string name="delete_event">確認刪除事件？</string>
+
+    <string name="add_new_event">添加新的事件</string>
+    <string name="add">添加</string>
+
+    <string name="lucky_day_notification_title">LuckyDays 通知</string>
+    <string name="you_have">你有</string>
+    <string name="due_on">個事件在今天截止</string>
+    <string name="turn_off_content">你已關閉通知</string>
+    <string name="turn_on_content">你已開啟通知</string>
+    <string name="turn_on_n">開啟通知</string>
+    <string name="turn_off_n">關閉通知</string>
+    <string name="lucky_day_n">LuckyDays 通知</string>
+
+    <string name="all">全部</string>
+    <string name="events">事件</string>
+    <string name="display_mode">顯示模式</string>
+    <string name="calendar_view">日曆模式</string>
+    <string name="add_new_event1">添加新事件</string>
+    <string name="event_list_view">列表模式</string>
+    <string name="place_holder">Place Holder</string>
+    <string name="choose_colour">更改顏色</string>
+
+    <string name="date_decisioin">截止日期不應早於起始日期</string>
+
+    <string name="username_doesnt_exist">用戶名不存在，請先註冊</string>
+
+    <string name="version_info">版本信息</string>
+
+    <string name="title_activity_version_info">版本信息</string>
+
+    <string name="send_email">發送至郵箱</string>
+    <string name="title_activity_send_email">發送至郵箱</string>
+
+    <string name="send_to">收件人</string>
+    <string name="email_subject">主題</string>
+    <string name="email_content">正文</string>
+    <string name="send_button">發送</string>
+
+    <string name="border_line">=====================================</string>
+    <string name="email_signature">發送自 Luckydays 安卓版</string>
+
+    <string name="cancel_sending">退出并取消發送？</string>
+
+    <string name="exit_without_sending">退出并取消發送</string>
+
+    <string name="email_is_empty">收件人不能為空</string>
+    <string name="email_address_invalid">收件郵箱名不正確</string>
+    <string name="subject_is_empty">郵件主題不能為空</string>
+    <string name="confirm_sending_email">確認發送郵件？</string>
+    <string name="invalid_information">無效信息提示</string>
+    <string name="network_error">網絡信號異常</string>
+    <string name="network_not_available">網絡不可用</string>
+    <string name="title_activity_words">發送新單詞</string>
+
+    <!-- -->
+    <string name="function_name">功能</string>
+    <string name="function_words">單詞</string>
+    <string name="word_choose_time">選擇時間</string>
+    <string name="new_word">新單詞</string>
+    <string name="choose_time">選擇時間</string>
+
+    <string name="word_is_empty">單詞欄為空</string>
+
+</resources>

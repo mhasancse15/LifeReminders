@@ -1,0 +1,261 @@
+<resources>
+
+    <string name="app_name">LuckyDays</string>
+
+    <!-- Strings related to login -->
+    <string name="username">Nom d’utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="prompt_email">Email (Doit contenir @ et . )</string>
+    <string name="prompt_password">Mot de passe (Au moins 6 caractére)</string>
+    <string name="action_sign_in">Se connecter</string>
+    <string name="action_sign_up">S’inscrire</string>
+    <string name="action_sign_in_short">Se connecter</string>
+    <string name="action_add_event">Ajouter un évenement</string>
+    <string name="action_delete">Supprimer</string>
+    <string name="action_edit">Modifier</string>
+    <string name="error_invalid_email">Adresse email invalide</string>
+    <string name="error_invalid_password">Mot de passe trop court</string>
+    <string name="error_incorrect_password">Mot de passe incorrect</string>
+    <string name="password_incorrect">Mot de passe incorrect</string>
+    <string name="error_field_required">Champs requis</string>
+    <string name="email_invalid">Email invalide</string>
+    <string name="password_invalid">Mot de passe invalide</string>
+    <string name="email_and_password_invalid">Email et mot de passe invalides</string>
+    <string name="username_already_exist">Nom d’utilisateur pris</string>
+
+    <string name="permission_rationale">"Permissions d’acces aux contacts requis pour valider l’emai."</string>
+
+    <string name="only_show_days">Montrer seulement les évenements finsi en 14 jours</string>
+    <string name="only_show_positive">Montrer seulement les évenements avec jours restants non-négatifs</string>
+    <string name="turn_on_notification">Activer les notifications</string>
+    <string name="choose_notification_time">Choix de l’heure de notification</string>
+    <string name="off">Desactivé</string>
+    <string name="on">Activé</string>
+    <string name="apply_changes">Appliquer</string>
+    <string name="discard_changes">Quitter</string>
+
+    <string name="colour_text">Couleurs</string>
+
+    <string name="language_choosing">Choix de la langue (语言 語言 言語 language)</string>
+
+    <string-array name="languages_array">
+        <item>Anglais (EN-GB)</item>
+        <item>Chinois simplifié (CH-ZN)</item>
+        <item>Chinois traditionnel (CH-TW)</item>
+        <item>Japonais (JA-JP)</item>
+        <item>Francais (FR-FA)</item>
+    </string-array>
+
+    <string-array name="colour_array">
+        <item>Bleu</item>
+        <item>Vert</item>
+        <item>Rose</item>
+        <item>Violet</item>
+        <item>Orange</item>
+        <item>Vert clair</item>
+        <item>Citron</item>
+        <item>Ambre</item>
+        <item>Jaune</item>
+        <item>Gris</item>
+        <item>Bleu clair</item>
+        <item>Sarcelle</item>
+        <item>Rouge</item>
+        <item>Vert1</item>
+        <item>Vert2</item>
+        <item>Sarcelle1</item>
+        <item>Violet1</item>
+        <item>Rose1</item>
+        <item>Gris1</item>
+        <item>Violet2</item>
+        <item>Rose2</item>
+        <item>Vert3</item>
+        <item>Orange1</item>
+        <item>Violet3</item>
+        <item>Violet4</item>
+        <item>Bleu1</item>
+        <item>Cyan</item>
+        <item>Vert4</item>
+        <item>Rose3</item>
+        <item>Orange2</item>
+    </string-array>
+
+    <string name="title_activity_navigation">Activité de navigation</string>
+
+    <string name="navigation_drawer_open">Ouvrir menu de nagivation</string>
+    <string name="navigation_drawer_close">Fermer menu de nagivation</string>
+
+    <string name="action_settings">Parametres</string>
+
+    <string name="manage_event_title_bar">Gestion des évenements</string>
+    <string name="title_activity_settings">Parametres</string>
+
+
+    <string name="title_activity_scrolling">Activité</string>
+    <string name="large_text">Texte</string>
+    <string name="title_activity_event_creation_scrolling">Creer un nouvel évenement</string>
+
+    <!-- Strings for creating events -->
+    <string name="event_name">Nom de l’evenement</string>
+    <string name="event_classification">Classification de l’evenement</string>
+    <string name="event_starting_time">Heure de début de l’évenement</string>
+    <string name="event_starting_date">Date de début de l’évenement</string>
+    <string name="event_finishing_time">Heure de fin de l’évenement</string>
+    <string name="event_finishing_date">Date de fin de l’évenement</string>
+    <string name="event_creating_time">Heure de creation de l’évenement</string>
+    <string name="days_remain">Jours restants</string>
+    <string name="event_content">Contenu de l’évenement</string>
+    <string name="days">jours</string>
+    <string name="classs">classe</string>
+
+    <string name="event_name_hint">Rentrez le nom de l’évenement</string>
+    <string name="event_content_hint">Rentrez le contenu de l’évenement</string>
+
+    <string name="finish">Finir</string>
+    <string name="cancel">Annuler</string>
+    <string name="update">Modifier</string>
+
+    <string-array name="event_classification_spinner_options">
+        <item>Acceuil</item>
+        <item>Travail</item>
+        <item>Autre</item>
+    </string-array>
+
+    <string-array name="sorting_order_spinner_options">
+        <item>Ranger par date de création ascendante</item>
+        <item>Ranger par date de création descendante</item>
+        <item>Ranger par jours restants</item>
+    </string-array>
+
+    <string name="sorting_order">Ranger les évenements par</string>
+
+    <string name="title_activity_about_page_main">Page d’information</string>
+    <string name="title_About">A propos</string>
+    <string name="title_Develpoer">Developpeurs</string>
+    <string name="title_Statistic">Statistiques</string>
+    <string name="title_activity_event_edit_scrolling">Editer l’évenement</string>
+    <string name="edit_your_event">Editer l’évenement </string>
+    <string name="title_activity_main">Activité principale</string>
+    <string name="section_format">Hello World de la section: %1$d</string>
+    <string name="title_activity_setting_page">Parametres de la page d’activité</string>
+
+    <string name="logout_button">Se déconnecter</string>
+    <string name="about_this_app">A propos de cette application</string>
+    <string name="about_developer">A propos du développeur</string>
+    <string name="change_password_button">Changer le mot de passe</string>
+    <string name="enter_password">Nouveau mot de passe</string>
+    <string name="re_enter_password">Confirmation du nouveau mot de passe</string>
+
+    <string name="quick_statistics">Statistiques principales sur vos évenements</string>
+    <string name="count_all">Nombre d’évenements "Tous"</string>
+    <string name="count_home">Nombre d’évenements "Acceuil"</string>
+    <string name="count_work">Nombre d’évenements "Travail"</string>
+    <string name="count_others">Nombre d’évenements "Autres"</string>
+
+    <string name="search">Recherche de contenu</string>
+
+    <string name="start_up_button_text">Developed by Jiashu Wu</string>
+    <string name="start_up_button_date">© Copyright Jiashu Wu 2018 All Rights Reserved</string>
+
+    <string name="username_text1">Nom d’utilisateurr</string>
+    <string name="title_activity_calendar_event">CalendarEventActivity</string>
+    <string name="title_activity_calendar_view_navigation">Mode Calendrier</string>
+    <string name="title_activity_display_licences">licence d\'utilisation de logiciel</string>
+
+    <string name="view_licence">la licence de logiciel</string>
+
+    <string name="change_password">Changer mot de passe</string>
+    <string name="incorrect_password_setting">Mot de passe incorrect</string>
+    <string name="ok">OK</string>
+    <string name="okay">Okay</string>
+    <string name="password_reset_successfully">Modification de mot passe appliquée</string>
+    <string name="confirm_logout1">Confirmation de déconnection</string>
+    <string name="confirm_logout2">Confirmer la déconnection?</string>
+    <string name="go_back">Retour</string>
+    <string name="log_out">Se déconnecter</string>
+
+    <string name="make_changes">Appliquer changement</string>
+    <string name="change_event">Changer l’évenement?</string>
+    <string name="go_back_without_saving">Retour sans changement</string>
+    <string name="delete">Supprimer</string>
+    <string name="edit">Modifier</string>
+    <string name="invalid_login">Connection invalide</string>
+
+    <string name="invalid_event_information">Information de l’évenement invalide</string>
+    <string name="home">Acceuil</string>
+    <string name="work">Travail</string>
+    <string name="others">Autres</string>
+    <string name="event_name_content_invalid">Nom de l’évenement et contenu de l’évenement invalide</string>
+    <string name="event_name_invalid">Nom de l’évenement invalide</string>
+    <string name="event_content_invalid">Contenu de l’évenement invalide (0–10000 Mots)</string>
+    <string name="confirm_saving">Appliquer changements</string>
+    <string name="go_back_to_change">Retour au changements</string>
+    <string name="confirm_exit">Confirmer quitter</string>
+    <string name="exit_without_saving2">Quitter sans sauvergarder?</string>
+    <string name="exit_without_saving1">Quitter sans sauvegarder</string>
+    <string name="confirm">Confirmer</string>
+    <string name="delete_event">Supprimer l’évenement?</string>
+
+    <string name="add_new_event">Ajouter un nouvel évenement</string>
+    <string name="add">Ajouter</string>
+
+    <string name="lucky_day_notification_title">LuckyDays Taches de notifications</string>
+    <string name="you_have">Vous avez  </string>
+    <string name="due_on">  taches a accomplir aujourd’hui.</string>
+    <string name="turn_off_content">Vous avez desactivé la notification</string>
+    <string name="turn_on_content">Vous avez active la notification</string>
+    <string name="turn_on_n">Activer Notification</string>
+    <string name="turn_off_n">Desactiver Notification</string>
+    <string name="lucky_day_n">LuckyDay Notification</string>
+
+    <string name="all">Tous</string>
+    <string name="events">Evenements</string>
+    <string name="display_mode">Mode display</string>
+    <string name="calendar_view">Vue calendrier</string>
+    <string name="add_new_event1">Ajouter nouvel évenement</string>
+    <string name="event_list_view">Vue liste des évenements</string>
+    <string name="place_holder">Place Holder</string>
+    <string name="choose_colour">Changer couleur</string>
+
+    <string name="date_decisioin">Finishing Date shouldn\'t be earlier than starting date</string>
+
+    <string name="username_doesnt_exist">Username doesn\'t exist, please sign up first</string>
+
+    <string name="version_info">information sur la version</string>
+    <string name="title_activity_version_info">information sur la version</string>
+
+    <string name="send_email">envoyer un email</string>
+    <string name="title_activity_send_email">envoyer un email</string>
+
+    <string name="send_to">bénéficiaire</string>
+    <string name="email_subject">assujettir</string>
+    <string name="email_content">contenu</string>
+    <string name="send_button">envoyer</string>
+
+    <string name="border_line">=====================================</string>
+    <string name="email_signature">Send from LuckyDays Android version</string>
+
+    <string name="cancel_sending">Exit without sending this email?</string>
+
+    <string name="exit_without_sending">Exit without sending</string>
+
+    <string name="email_is_empty">Email address cannot be empty</string>
+    <string name="email_address_invalid">Email address invalid</string>
+    <string name="subject_is_empty">Subject cannot be empty</string>
+    <string name="confirm_sending_email">Confirm sending this email?</string>
+    <string name="invalid_information">information invalide</string>
+    <string name="network_error">erreur réseau</string>
+    <string name="network_not_available">Network not available</string>
+    <string name="title_activity_words">Send New Words</string>
+
+
+    <!-- -->
+    <string name="function_name">Functions</string>
+    <string name="function_words">Words</string>
+    <string name="word_choose_time">Choose Time</string>
+    <string name="new_word">New Word</string>
+    <string name="choose_time">Choose Time</string>
+
+    <string name="word_is_empty">Word field is empty</string>
+
+
+</resources>

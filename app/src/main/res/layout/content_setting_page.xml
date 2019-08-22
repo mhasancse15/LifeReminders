@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.davidwu.notebook.SettingPageActivity"
+    tools:showIn="@layout/activity_setting_page">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/setting_spinner_title"
+                android:text="@string/sorting_order"
+                android:layout_marginTop="36dp"
+                android:layout_marginLeft="30dp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/setting_mode_spinner"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_below="@id/setting_spinner_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/setting_switch_bar_title"
+                android:text="@string/only_show_days"
+                android:layout_below="@id/setting_mode_spinner"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="30dp"/>
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/setting_switch_bar"
+                android:layout_toRightOf="@id/setting_switch_bar_title"
+                android:layout_toEndOf="@id/setting_switch_bar_title"
+                android:layout_below="@id/setting_mode_spinner"
+                android:textOff="@string/off"
+                android:textOn="@string/on"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="18dp" />
+
+
+            <TextView
+                android:id="@+id/setting_negative_day_switch_bar_title"
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/setting_switch_bar_title"
+                android:layout_alignStart="@+id/setting_switch_bar_title"
+                android:layout_below="@id/setting_switch_bar_title"
+                android:layout_marginTop="24dp"
+                android:layout_toLeftOf="@+id/setting_switch_bar"
+                android:layout_toStartOf="@+id/setting_switch_bar"
+                android:lines="2"
+                android:text="@string/only_show_positive" />
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="18dp"
+                android:id="@+id/negative_days_switch_bar"
+                android:layout_toRightOf="@id/setting_negative_day_switch_bar_title"
+                android:layout_toEndOf="@id/setting_negative_day_switch_bar_title"
+                android:layout_below="@id/setting_switch_bar_title"
+                android:textOff="@string/off"
+                android:textOn="@string/on" />
+
+            <TextView
+                android:id="@+id/setting_notification_switch_bar_title"
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/setting_negative_day_switch_bar_title"
+                android:layout_alignStart="@id/setting_negative_day_switch_bar_title"
+                android:layout_below="@id/setting_negative_day_switch_bar_title"
+                android:layout_marginTop="24dp"
+                android:layout_toLeftOf="@id/negative_days_switch_bar"
+                android:layout_toStartOf="@id/negative_days_switch_bar"
+                android:lines="1"
+                android:text="@string/turn_on_notification" />
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="18dp"
+                android:id="@+id/notification_switch_bar"
+                android:layout_toRightOf="@id/setting_notification_switch_bar_title"
+                android:layout_toEndOf="@id/setting_notification_switch_bar_title"
+                android:layout_below="@id/setting_negative_day_switch_bar_title"
+                android:textOff="@string/off"
+                android:textOn="@string/on" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/setting_notification_time_choosing_title"
+                android:layout_marginTop="36dp"
+                android:layout_alignLeft="@id/setting_notification_switch_bar_title"
+                android:layout_alignStart="@id/setting_notification_switch_bar_title"
+                android:layout_below="@id/setting_notification_switch_bar_title"
+                android:text="@string/choose_notification_time"
+                android:layout_toLeftOf="@id/notification_switch_bar"
+                android:layout_toStartOf="@id/notification_switch_bar"
+                android:lines="1" />
+
+
+            <TimePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/setting_notification_time_picker"
+                android:layout_marginTop="24dp"
+                android:layout_below="@id/setting_notification_time_choosing_title"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/color_textview"
+                android:layout_below="@id/setting_notification_time_picker"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/choose_colour"/>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/colour_spinner"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="18dp"
+                android:layout_below="@id/setting_notification_time_picker"
+                android:layout_toRightOf="@id/color_textview"
+                />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/color_textview"
+                android:layout_marginTop="36dp"
+                android:id="@+id/setting_page_buttons">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/setting_apply_button"
+                    android:layout_marginLeft="30dp"
+                    android:text="@string/apply_changes"
+                    android:layout_weight="1"
+                    android:layout_below="@id/setting_switch_bar_title"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/setting_discard_button"
+                    android:text="@string/discard_changes"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_weight="1"
+                    android:layout_below="@id/setting_switch_bar_title"
+                    android:layout_toRightOf="@id/setting_apply_button"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/setting_page_buttons"
+                android:layout_marginTop="30dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

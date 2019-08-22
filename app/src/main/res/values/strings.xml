@@ -1,0 +1,262 @@
+<resources>
+
+    <string name="app_name">LuckyDays</string>
+
+    <!-- Strings related to login -->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="prompt_email">Email (Must contain @ and . )</string>
+    <string name="prompt_password">Password (At least 6 characters)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_add_event">Add Event</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="password_incorrect">Password Incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="email_invalid">Email is invalid</string>
+    <string name="password_invalid">Password is invalid</string>
+    <string name="email_and_password_invalid">Email and password is invalid</string>
+    <string name="username_already_exist">Username already exists</string>
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="only_show_days">Only show events finished in 14 days</string>
+    <string name="only_show_positive">Only show events with non-negative remaining days</string>
+    <string name="turn_on_notification">Turn on notification</string>
+    <string name="choose_notification_time">Choose notification time</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="apply_changes">Apply Changes</string>
+    <string name="discard_changes">Discard Changes</string>
+
+    <string name="colour_text">Colours</string>
+
+    <string name="language_choosing">Please choose your language (语言 語言 言語 langue)</string>
+
+    <string-array name="languages_array">
+        <item>English (EN-GB)</item>
+        <item>Simplified Chinese (CH-ZN)</item>
+        <item>Traditional Chinese (CH-TW)</item>
+        <item>Japanese (JA-JP)</item>
+        <item>French (FR-FA)</item>
+    </string-array>
+
+    <string-array name="colour_array">
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Orange</item>
+        <item>Light Green</item>
+        <item>Lime</item>
+        <item>Amber</item>
+        <item>Yellow</item>
+        <item>Grey</item>
+        <item>Light Blue</item>
+        <item>Teal</item>
+        <item>Red</item>
+        <item>Green1</item>
+        <item>Green2</item>
+        <item>Teal1</item>
+        <item>Purple1</item>
+        <item>Pink1</item>
+        <item>Grey1</item>
+        <item>Purple2</item>
+        <item>Pink2</item>
+        <item>Green3</item>
+        <item>Orange1</item>
+        <item>Purple3</item>
+        <item>Purple4</item>
+        <item>Blue1</item>
+        <item>Cyan</item>
+        <item>Green4</item>
+        <item>Pink3</item>
+        <item>Orange2</item>
+    </string-array>
+
+    <string name="title_activity_navigation">Event List Mode</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="manage_event_title_bar">Manage your events</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <string name="title_activity_scrolling">Event Details</string>
+    <string name="large_text">Text Place Holder</string>
+    <string name="title_activity_event_creation_scrolling">Create a New Event</string>
+
+    <!-- Strings for creating events -->
+    <string name="event_name">Event Name</string>
+    <string name="event_classification">Event Classification</string>
+    <string name="event_starting_time">Event Starting Time</string>
+    <string name="event_starting_date">Event Starting Date</string>
+    <string name="event_finishing_time">Event Finishing Time</string>
+    <string name="event_finishing_date">Event Finishing Date</string>
+    <string name="event_creating_time">Event Creating Time</string>
+    <string name="days_remain">Days Remain</string>
+    <string name="event_content">Event Content</string>
+    <string name="days">days</string>
+    <string name="classs">class</string>
+
+    <string name="event_name_hint">Please enter your event name</string>
+    <string name="event_content_hint">Please enter the content of your event</string>
+
+    <string name="finish">Finish</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+
+    <string-array name="event_classification_spinner_options">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="sorting_order_spinner_options">
+        <item>Sort by creating date ASC</item>
+        <item>Sort by creating date DESC</item>
+        <item>Sort by remain days</item>
+    </string-array>
+
+    <string name="sorting_order">Sort your events by</string>
+
+    <string name="title_activity_about_page_main">About this app</string>
+    <string name="title_About">About</string>
+    <string name="title_Develpoer">Developer</string>
+    <string name="title_Statistic">Statistic</string>
+    <string name="title_activity_event_edit_scrolling">Edit Your Event</string>
+    <string name="edit_your_event">Edit your event</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_setting_page">Settings</string>
+
+    <string name="logout_button">Log Out</string>
+    <string name="about_this_app">About this App</string>
+    <string name="about_developer">About the developer</string>
+    <string name="change_password_button">Change Password</string>
+    <string name="enter_password">Please Enter Your New Password</string>
+    <string name="re_enter_password">Please Re-enter Your Password</string>
+
+    <string name="quick_statistics">Quick Statistics About Your Events</string>
+    <string name="count_all">Number of "All" events</string>
+    <string name="count_home">Number of "Home" events</string>
+    <string name="count_work">Number of "Work" events</string>
+    <string name="count_others">Number of "Others" events</string>
+
+    <string name="search">Search Content</string>
+
+    <string name="start_up_button_text">Developed by Jiashu Wu</string>
+    <string name="start_up_button_date">© Copyright Jiashu Wu 2018 All Rights Reserved</string>
+
+    <string name="username_text1">Username</string>
+    <string name="title_activity_calendar_event">CalendarEventActivity</string>
+    <string name="title_activity_calendar_view_navigation">Calendar Mode</string>
+    <string name="title_activity_display_licences">Software Licence</string>
+
+    <string name="view_licence">View Software Licence</string>
+
+    <string name="change_password">Change Your Password</string>
+    <string name="incorrect_password_setting">Incorrect Password Setting</string>
+    <string name="ok">OK</string>
+    <string name="okay">Okay</string>
+    <string name="password_reset_successfully">Password Reset Successfully</string>
+    <string name="confirm_logout1">Confirm Log out</string>
+    <string name="confirm_logout2">Confirm Log out?</string>
+    <string name="go_back">Go Back</string>
+    <string name="log_out">Log out</string>
+
+    <string name="make_changes">Make Changes</string>
+    <string name="change_event">Want to change your event?</string>
+    <string name="go_back_without_saving">Go Back Without Changing it</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="invalid_login">Invalid Login</string>
+
+    <string name="invalid_event_information">Invalid Event Information</string>
+    <string name="home">Home</string>
+    <string name="work">Work</string>
+    <string name="others">Others</string>
+    <string name="event_name_content_invalid">Event Name and Event Content Invalid</string>
+    <string name="event_name_invalid">Event Name Invalid</string>
+    <string name="event_content_invalid">Event Content Invalid (0-10000 Words)</string>
+    <string name="confirm_saving">Confirm Saving</string>
+    <string name="go_back_to_change">Go Back to Change</string>
+    <string name="confirm_exit">Confirm exit</string>
+    <string name="exit_without_saving2">Exit without saving?</string>
+    <string name="exit_without_saving1">Exit without saving</string>
+    <string name="confirm">Confirm</string>
+    <string name="delete_event">Want to delete your event?</string>
+
+    <string name="add_new_event">Add New Event</string>
+    <string name="add">Add</string>
+
+    <string name="lucky_day_notification_title">LuckyDays Tasks Notification</string>
+    <string name="you_have">You have  </string>
+    <string name="due_on">  tasks due on today.</string>
+    <string name="turn_off_content">You have turned off the notification</string>
+    <string name="turn_on_content">You have turned on the notification</string>
+    <string name="turn_on_n">Turn On Notification</string>
+    <string name="turn_off_n">Turn Off Notification</string>
+    <string name="lucky_day_n">LuckyDays Notification</string>
+
+    <string name="all">All</string>
+    <string name="events">Events</string>
+    <string name="display_mode">Display Mode</string>
+    <string name="calendar_view">Calendar View</string>
+    <string name="add_new_event1">Add New Event</string>
+    <string name="event_list_view">Event List View</string>
+    <string name="place_holder">Place Holder</string>
+    <string name="choose_colour">Change colour</string>
+
+    <string name="date_decisioin">Finishing Date shouldn\'t be earlier than starting date</string>
+
+    <string name="username_doesnt_exist">Username doesn\'t exist, please sign up first</string>
+
+    <string name="version_info">Version Info</string>
+    <string name="title_activity_version_info">Version Information</string>
+
+    <string name="send_email">Send email</string>
+    <string name="title_activity_send_email">Send Email</string>
+
+    <string name="send_to">Send to</string>
+    <string name="email_subject">Subject</string>
+    <string name="email_content">Content</string>
+    <string name="send_button">Send</string>
+
+    <string name="border_line">=====================================</string>
+    <string name="email_signature">Send from LuckyDays Android version</string>
+
+    <string name="cancel_sending">Exit without sending this email?</string>
+
+    <string name="exit_without_sending">Exit without sending</string>
+
+    <string name="email_is_empty">Email address cannot be empty</string>
+    <string name="email_address_invalid">Email address invalid</string>
+    <string name="subject_is_empty">Subject cannot be empty</string>
+    <string name="confirm_sending_email">Confirm sending this email?</string>
+    <string name="invalid_information">Invalid Information</string>
+    <string name="network_error">Network Error</string>
+    <string name="network_not_available">Network not available</string>
+    <string name="title_activity_words">Send New Words</string>
+
+    <!-- -->
+    <string name="function_name">Functions</string>
+    <string name="function_words">Words</string>
+    <string name="word_choose_time">Choose Time</string>
+    <string name="new_word">New Word</string>
+    <string name="choose_time">Choose Time</string>
+
+    <string name="word_is_empty">Word field is empty</string>
+
+
+</resources>

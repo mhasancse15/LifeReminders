@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.davidwu.notebook.EventCreationScrollingActivity"
+    tools:showIn="@layout/activity_event_creation_scrolling">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="18sp"
+            android:text="@string/event_name"
+            android:id="@+id/event_name_textview" />
+
+
+        <EditText
+            android:id="@+id/event_name_editview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/event_name_textview"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/event_name_hint"
+            android:imeActionId="6"
+            android:imeActionLabel="@string/action_sign_in_short"
+            android:imeOptions="actionUnspecified"
+            android:inputType="text"
+            android:maxLines="3"
+            android:singleLine="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="18sp"
+            android:text="@string/event_starting_time"
+            android:id="@+id/event_starting_date_textview"
+            android:layout_below="@id/event_name_editview" />
+
+        <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/event_creation_starting_date_picker"
+            android:layout_below="@id/event_starting_date_textview"
+            android:layout_marginTop="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="30dp"
+            android:text="@string/event_finishing_time"
+            android:textSize="18sp"
+            android:id="@+id/event_finishing_date_textview"
+            android:layout_below="@id/event_creation_starting_date_picker" />
+
+        <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_creation_finishing_date_picker"
+            android:layout_below="@id/event_finishing_date_textview"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:text="@string/event_classification"
+            android:id="@+id/event_classification_textview"
+            android:layout_below="@id/event_creation_finishing_date_picker"
+            />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_classification_spinner"
+            android:layout_below="@id/event_creation_finishing_date_picker"
+            android:layout_toRightOf="@id/event_classification_textview"
+            android:layout_toEndOf="@id/event_classification_textview"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_content_textiew"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/event_content"
+            android:textSize="18sp"
+            android:layout_below="@id/event_classification_spinner"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_content_editview"
+            android:hint="@string/event_content_hint"
+            android:layout_below="@id/event_content_textiew"
+            android:maxLines="200"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/event_content_editview"
+            android:layout_marginTop="36dp"
+            android:layout_marginBottom="50dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/event_finish_button"
+                android:text="@string/finish"
+                android:layout_below="@id/event_content_editview"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="3dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/event_cancel_button"
+                android:text="@string/cancel"
+                android:layout_below="@id/event_content_editview"
+                android:layout_toRightOf="@id/event_finish_button"
+                android:layout_toEndOf="@id/event_finish_button"
+                android:layout_weight="1"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="30dp"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</android.support.v4.widget.NestedScrollView>
